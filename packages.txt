@@ -1,0 +1,9 @@
+baobab
+build-essential
+dkms
+fish
+git
+i3
+i3lock
+i3status
+rofi
