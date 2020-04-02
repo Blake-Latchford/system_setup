@@ -1,5 +1,7 @@
+
 baobab
 build-essential
+compton
 dkms
 fish
 git
