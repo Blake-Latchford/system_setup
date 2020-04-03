@@ -1,9 +1,8 @@
-
 baobab
 build-essential
-clang-tidy
 cmake
 compton
+cppcheck
 curl
 dkms
 fish

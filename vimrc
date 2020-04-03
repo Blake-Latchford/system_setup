@@ -25,6 +25,12 @@ set hlsearch
 set smartcase
 set incsearch
 
+set expandtab
+set tabstop=4
+set softtabstop=0
+set shiftwidth=4
+set smarttab
+
 " Configure spell checking
 set spell
 hi clear SpellBad
@@ -47,5 +53,4 @@ Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/rainbow_parentheses.vim'
-Plug 'valloric/youcompleteme'
 call plug#end()
