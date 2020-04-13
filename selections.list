@@ -141,6 +141,7 @@ fonts-liberation2				install
 fonts-noto-color-emoji				install
 fonts-noto-mono					install
 fonts-opensymbol				install
+fonts-powerline					install
 fonts-quicksand					install
 fonts-urw-base35				install
 foomatic-db-compressed-ppds			install
@@ -1400,6 +1401,7 @@ policykit-1					install
 policykit-1-gnome				install
 poppler-data					install
 poppler-utils					install
+powerline					install
 powermgmt-base					install
 ppp						install
 printer-driver-all				install
@@ -1465,6 +1467,8 @@ python3-olefile					install
 python3-pexpect					install
 python3-pil:amd64				install
 python3-pkg-resources				install
+python3-powerline				install
+python3-psutil					install
 python3-ptyprocess				install
 python3-pyatspi					install
 python3-pycurl					install
