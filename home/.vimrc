@@ -44,6 +44,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+let g:airline_powerline_fonts = 1
+
 " Init plugins.
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
