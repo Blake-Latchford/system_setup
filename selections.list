@@ -1401,7 +1401,7 @@ policykit-1					install
 policykit-1-gnome				install
 poppler-data					install
 poppler-utils					install
-powerline					install
+powerline					deinstall
 powermgmt-base					install
 ppp						install
 printer-driver-all				install
@@ -1467,8 +1467,6 @@ python3-olefile					install
 python3-pexpect					install
 python3-pil:amd64				install
 python3-pkg-resources				install
-python3-powerline				install
-python3-psutil					install
 python3-ptyprocess				install
 python3-pyatspi					install
 python3-pycurl					install
