@@ -1251,6 +1251,7 @@ libxcb-randr0:amd64				install
 libxcb-render-util0:amd64			install
 libxcb-render0:amd64				install
 libxcb-res0:amd64				install
+libxcb-screensaver0:amd64			install
 libxcb-shape0:amd64				install
 libxcb-shm0:amd64				install
 libxcb-sync1:amd64				install
@@ -1620,6 +1621,7 @@ xserver-xorg-video-qxl				install
 xserver-xorg-video-radeon			install
 xserver-xorg-video-vesa				install
 xserver-xorg-video-vmware			install
+xss-lock					install
 xterm						install
 xwayland					install
 xxd						install
