@@ -1,4 +1,6 @@
 # Defined in - @ line 1
-function update --wraps='sudo apt update && sudo apt upgrade && sudo apt full-upgrade && sudo apt autoremove' --description 'alias update=sudo apt update && sudo apt upgrade && sudo apt full-upgrade && sudo apt autoremove'
-  sudo apt update && sudo apt upgrade && sudo apt full-upgrade && sudo apt autoremove $argv;
+function update
+    sudo apt update
+    and sudo apt full-upgrade
+    and sudo apt autoremove
 end
