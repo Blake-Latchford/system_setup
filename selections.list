@@ -137,7 +137,6 @@ fonts-dejavu					install
 fonts-dejavu-core				install
 fonts-dejavu-extra				install
 fonts-droid-fallback				install
-fonts-junicode					deinstall
 fonts-liberation2				install
 fonts-noto-color-emoji				install
 fonts-noto-mono					install
