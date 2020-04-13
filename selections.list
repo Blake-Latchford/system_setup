@@ -137,6 +137,7 @@ fonts-dejavu					install
 fonts-dejavu-core				install
 fonts-dejavu-extra				install
 fonts-droid-fallback				install
+fonts-junicode					deinstall
 fonts-liberation2				install
 fonts-noto-color-emoji				install
 fonts-noto-mono					install
@@ -561,7 +562,7 @@ libdrm-radeon1:amd64				install
 libdrm2:amd64					install
 libdv4:amd64					install
 libdvdnav4:amd64				install
-libdvdread7:amd64				install
+libdvdread8:amd64				install
 libdw1:amd64					install
 libe-book-0.1-1:amd64				install
 libebackend-1.2-10:amd64			install
@@ -873,7 +874,7 @@ libmms0:amd64					install
 libmnl0:amd64					install
 libmodplug1:amd64				install
 libmount1:amd64					install
-libmozjs-60-0:amd64				install
+libmozjs-68-0:amd64				install
 libmp3lame0:amd64				install
 libmpc3:amd64					install
 libmpcdec6:amd64				install
