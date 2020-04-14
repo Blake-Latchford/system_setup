@@ -14,7 +14,6 @@ apt						install
 apt-config-icons				install
 apt-listchanges					install
 apt-utils					install
-argyll						deinstall
 aspell						install
 aspell-en					install
 at-spi2-core					install
@@ -31,9 +30,6 @@ binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
 bluez						install
 bluez-obexd					install
-bogofilter					deinstall
-bogofilter-bdb					deinstall
-bogofilter-common				deinstall
 bolt						install
 brasero-common					install
 bsdmainutils					install
@@ -80,7 +76,6 @@ dash						install
 dbus						install
 dbus-user-session				install
 dbus-x11					install
-dc						deinstall
 dconf-cli					install
 dconf-gsettings-backend:amd64			install
 dconf-service					install
@@ -116,7 +111,6 @@ eog						install
 espeak-ng-data:amd64				install
 evince						install
 evince-common					install
-evolution					deinstall
 evolution-data-server				install
 evolution-data-server-common			install
 exfat-fuse					install
@@ -146,7 +140,6 @@ fonts-quicksand					install
 fonts-urw-base35				install
 foomatic-db-compressed-ppds			install
 foomatic-db-engine				install
-fuse						deinstall
 fuse3						install
 fwupd						install
 fwupd-amd64-signed				install
@@ -251,7 +244,6 @@ gnome-backgrounds				install
 gnome-bluetooth					install
 gnome-calculator				install
 gnome-characters				install
-gnome-chess					deinstall
 gnome-clocks					install
 gnome-color-manager				install
 gnome-control-center				install
@@ -269,7 +261,6 @@ gnome-online-accounts				install
 gnome-online-miners				install
 gnome-screenshot				install
 gnome-session-bin				install
-gnome-session-common				deinstall
 gnome-settings-daemon				install
 gnome-settings-daemon-common			install
 gnome-shell					install
@@ -1014,7 +1005,6 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.7-minimal:amd64			deinstall
 libpython3.8:amd64				install
 libpython3.8-dev:amd64				install
 libpython3.8-minimal:amd64			install
@@ -1040,8 +1030,6 @@ libreoffice-core				install
 libreoffice-draw				install
 libreoffice-gnome				install
 libreoffice-gtk3				install
-libreoffice-help-common				deinstall
-libreoffice-help-en-us				deinstall
 libreoffice-impress				install
 libreoffice-math				install
 libreoffice-style-colibre			install
@@ -1312,8 +1300,6 @@ libzmq5:amd64					install
 libzstd1:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
-lightdm						deinstall
-lightdm-gtk-greeter				deinstall
 linux-base					install
 linux-compiler-gcc-9-x86			install
 linux-headers-5.4.0-4-amd64			install
@@ -1340,7 +1326,6 @@ make						install
 man-db						install
 manpages					install
 manpages-dev					install
-mariadb-common					deinstall
 mawk						install
 media-player-info				install
 mesa-va-drivers:amd64				install
@@ -1354,7 +1339,6 @@ mount						install
 mousetweaks					install
 mutter						install
 mutter-common					install
-mysql-common					deinstall
 nano						install
 nautilus					install
 nautilus-data					install
@@ -1401,7 +1385,6 @@ policykit-1					install
 policykit-1-gnome				install
 poppler-data					install
 poppler-utils					install
-powerline					deinstall
 powermgmt-base					install
 ppp						install
 printer-driver-all				install
@@ -1485,7 +1468,6 @@ python3-talloc:amd64				install
 python3-uno					install
 python3-urllib3					install
 python3-xdg					install
-python3.7-minimal				deinstall
 python3.8					install
 python3.8-dev					install
 python3.8-minimal				install
@@ -1535,16 +1517,12 @@ task-english					install
 task-print-service				install
 tasksel						install
 tasksel-data					install
-tcl8.6						deinstall
 telnet						install
 timgm6mb-soundfont				install
-tix						deinstall
-tk8.6						deinstall
 totem						install
 totem-common					install
 totem-plugins					install
 tpm-udev					install
-tpm2-abrmd					deinstall
 traceroute					install
 tracker						install
 tracker-extract					install
