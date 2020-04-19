@@ -1,6 +1,12 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+syntax enable
+colorscheme slate
+
+" Use the system clipboard as a buffer.
+set clipboard=unnamedplus
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -25,6 +31,9 @@ set number
 set hlsearch
 set smartcase
 set incsearch
+hi clear Search
+hi Search cterm=underline gui=undercurl ctermbg=white
+hi IncSearch cterm=underline gui=undercurl ctermbg=white
 
 " Tabs
 set expandtab
@@ -39,8 +48,8 @@ highlight ColorColumn ctermbg=darkgrey
 
 " Configure spell checking
 set spell
+set spellcapcheck=
 hi clear SpellBad
-hi SpellBad cterm=underline
 hi SpellBad gui=undercurl
 
 " Install vim-plug if it isn't already installed.
