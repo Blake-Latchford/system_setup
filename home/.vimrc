@@ -32,8 +32,8 @@ set hlsearch
 set smartcase
 set incsearch
 hi clear Search
-hi Search cterm=underline gui=undercurl ctermbg=white
-hi IncSearch cterm=underline gui=undercurl ctermbg=white
+hi Search cterm=underline gui=undercurl ctermbg=darkgrey
+hi IncSearch cterm=underline gui=undercurl ctermbg=darkgrey
 
 " Tabs
 set expandtab
