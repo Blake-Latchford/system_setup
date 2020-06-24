@@ -2,6 +2,8 @@
 set history=500
 
 syntax enable
+autocmd BufNewFile,BufRead *.rl set syntax=ragel
+
 colorscheme slate
 
 " Use the system clipboard as a buffer.
@@ -70,6 +72,7 @@ Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'jneen/ragel.vim'
 call plug#end()
 
 au VimEnter * RainbowParenthesesToggle
