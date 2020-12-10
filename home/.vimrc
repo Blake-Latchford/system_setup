@@ -2,16 +2,16 @@
 set history=500
 
 syntax enable
-autocmd BufNewFile,BufRead *.rl set syntax=ragel
 
 colorscheme slate
-
-" Use the system clipboard as a buffer.
-set clipboard=unnamedplus
 
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
+
+autocmd BufNewFile,BufRead *.rl set syntax=ragel filetype=c
+autocmd BufNewFile,BufRead *.h set filetype=c
+autocmd FileType c setlocal tabstop=8 shiftwidth=8 softtabstop=8 noexpandtab
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -36,13 +36,6 @@ set incsearch
 hi clear Search
 hi Search cterm=underline gui=undercurl ctermbg=darkgrey
 hi IncSearch cterm=underline gui=undercurl ctermbg=darkgrey
-
-" Tabs
-set expandtab
-set tabstop=4
-set softtabstop=0
-set shiftwidth=4
-set smarttab
 
 " Line length
 set colorcolumn=80
@@ -74,6 +67,9 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'jneen/ragel.vim'
 call plug#end()
+
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound

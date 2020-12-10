@@ -31,12 +31,10 @@ bindsym $mod+l exec "systemctl suspend"
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-exec --no-startup-id i3lock --nofork --ignore-empty-password --show-failed-attempts --color=0F0F0F
-
-exec --no-startup-id autoranddir --change
+#exec --no-startup-id autoranddir --change
 
 # Get a terminal on startup.
-exec i3-sensible-terminal
+exec firefox
 
 #Strange hack to remove window title.
 for_window [class="^.*"] border pixel 1

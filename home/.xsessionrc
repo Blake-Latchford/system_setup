@@ -1,3 +1,2 @@
 xsetroot -solid black
-xset s on
-xset s 600
+xset s off
