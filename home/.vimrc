@@ -72,9 +72,6 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'jneen/ragel.vim'
 call plug#end()
 
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
