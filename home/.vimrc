@@ -10,8 +10,13 @@ filetype plugin on
 filetype indent on
 
 autocmd BufNewFile,BufRead *.rl set syntax=ragel filetype=c
-autocmd BufNewFile,BufRead *.h set filetype=c
-autocmd FileType c setlocal tabstop=8 shiftwidth=8 softtabstop=8 noexpandtab
+autocmd BufNewFile,BufRead *.h set filetype=cpp
+autocmd BufNewFile,BufRead *.c set filetype=cpp
+autocmd FileType cpp setlocal tabstop=8 shiftwidth=8 softtabstop=8 noexpandtab
+
+" Highlight tabs
+set list
+set listchars=tab:▸\ ,
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -34,18 +39,18 @@ set hlsearch
 set smartcase
 set incsearch
 hi clear Search
-hi Search cterm=underline gui=undercurl ctermbg=darkgrey
-hi IncSearch cterm=underline gui=undercurl ctermbg=darkgrey
+hi Search cterm=underline gui=undercurl ctermbg=darkblue
+hi IncSearch cterm=underline gui=undercurl ctermbg=blue
 
 " Line length
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkgrey
 
 " Configure spell checking
-set spell
+set spell spelllang=en_us
 set spellcapcheck=
 hi clear SpellBad
-hi SpellBad gui=undercurl
+hi SpellBad gui=undercurl cterm=underline
 
 " Install vim-plug if it isn't already installed.
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -61,7 +66,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/rainbow_parentheses.vim'
